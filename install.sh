@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-REPO_NAME="csp"
+REPO_NAME="cloudshell-dotfiles"
 
 # Rename repo directory
 mv "${HOME/REPO_NAME}" "${HOME/.dotfiles}"

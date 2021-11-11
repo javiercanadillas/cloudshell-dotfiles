@@ -1,4 +1,4 @@
-# GCP Cloudshell Dotfiles
+# GCP Cloud Shell Dotfiles
 
 I find very annoying the default prompt in GCP's Cloud Shell. This repo fixes that. I'm using my own customized bash prompt based on [Riobard's Bash Powerline repo](https://github.com/riobard/bash-powerline).
 

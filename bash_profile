@@ -4,7 +4,7 @@
 ###################################################################
 DOTFILES_LOC="${HOME}/.dotfiles"
 
-## Source the existing bashrc file, make no distiction between
+## Source the existing bashrc file, make no distiction between``
 ## interactive and non-interactive shells
 if [ -f "${HOME}/.bashrc" ]; then
   source "${HOME}/.bashrc"

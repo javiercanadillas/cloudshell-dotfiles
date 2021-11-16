@@ -21,3 +21,6 @@ source "${DOTFILES_LOC}/prompt"
 function code {
   cloudshell edit "${@}"
 }
+
+## Include local bin dir in PATH
+export PATH="${PATH}:${HOME}/bin"

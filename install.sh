@@ -3,6 +3,15 @@ REPO_NAME="cloudshell-dotfiles"
 DOTFILES_LOC="${HOME}/.dotfiles"
 BAT_REPO_URL="https://github.com/sharkdp/bat/releases/download/v0.18.3/bat-musl_0.18.3_amd64.deb"
 LOCAL_BIN_DIR="${HOME}/bin"
+GIT_USERNAME="Javier Cañadillas"
+GIT_EMAIL="javiercm@google.com"
+
+# Basic Git Configuration
+git_config(){
+  git config --global user.name "$GIT_USERNAME"
+  git config --global user.email "GIT_PASSWORD"
+}
+
 
 # Rename repo directory
 mv "${HOME}/${REPO_NAME}" "${DOTFILES_LOC}"

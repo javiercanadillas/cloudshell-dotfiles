@@ -9,10 +9,10 @@ mv "${HOME}/${REPO_NAME}" "${DOTFILES_LOC}"
 
 # Install useful tools
 ## Install Bat, an improved and colorful cat
-command -v wget >/dev/null  2>&1 || wget "${BAT_REPO_URL}"
+command -v wget >/dev/null  2>&1 && wget "${BAT_REPO_URL}"
 sudo dpkg -i *.deb
 mkdir -p "${LOCAL_BIN_DIR}"
-command -v batcat >/dev/null  2>&1 || ln -s /usr/bin/batcat "${LOCAL_BIN_DIR}/bat" 
+command -v batcat >/dev/null  2>&1 && ln -s /usr/bin/batcat "${LOCAL_BIN_DIR}/bat" 
 rm *.deb
 
 # Link relevant files to $HOME
